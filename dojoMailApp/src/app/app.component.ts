@@ -12,4 +12,8 @@ export class AppComponent {
     {email: 'EdgarAllenPoe@Email.com', importance: true, subject: 'The Raven says', content: 'You are screwed.'},
     {email: 'Ginger@Email.com', importance: false, subject: 'Last Night', content: 'Thanks for nothing.'},
   ]
+
+  buttonClick() {
+    console.log('YOU PUSHED A BUTTON, YOU GET A COOKIE')
+  }
 }
